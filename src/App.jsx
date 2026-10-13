@@ -22,7 +22,7 @@ import {
 import { FaJava } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
 import portrait from "./assets/ChatGPT Image Sep 27, 2026, 02_02_39 AM.png";
-import cvFile from "./assets/EL_HADAR_YOUSSEF_CV (1).pdf";
+import cvFile from "./assets/CV_EL_HADAR_YOUSSEF.pdf";
 import "./App.css";
 
 const ROLES = [
@@ -259,7 +259,6 @@ export default function App() {
       <section className="hero" id="top">
         <div className="hero-layout">
           <div className="hero-copy">
-            <div className="eyebrow mono"><Sparkles size={14} /> Portfolio · ENSA Marrakech</div>
             <h1>Youssef<br /><span>El Hadar</span></h1>
             <div className="role-line mono"><span>{roleText}</span><span className="cursor" /></div>
             <p className="hero-desc">
